@@ -1,0 +1,78 @@
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-color: #deebff;
+}
+
+#summary-box {
+    margin:auto;
+    margin-top: 15vh;
+    width:23.45vw;
+    height:65vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px #bfbfbf;
+}
+
+#illustration {
+    border-radius: 20px 20px 0px 0px;
+    width:23.45vw;
+}
+
+#header {
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+#description {
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 200;
+    width:76%;
+    margin-left: 12%;
+}
+
+#subscription-box {
+    background-color: #f2f2f2;
+    width:80%;
+    margin-left:10%;
+    font-family: "Outfit", sans-serif;
+    border-radius: 10px;
+    display:grid;
+    grid-template-columns: 20% auto 20%;
+}
+
+#music-icon {
+    margin-top: 18%;
+    margin-left: 8%;
+}
+
+#plan-details {
+    font-weight: 200;
+}
+
+#change-plan {
+    font-weight: 200;
+    margin-top: 35%;
+}
+
+#payment-button {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:white;
+    width:80%;
+    height:50px;
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: #5510e8;
+}
+
+#cancel {
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 100;
+}
