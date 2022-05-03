@@ -24,6 +24,7 @@ body {
     text-align: center;
     font-family: "Outfit", sans-serif;
     font-weight: 600;
+    font-size: 1.7vw;
 }
 
 #description {
@@ -32,6 +33,7 @@ body {
     font-weight: 200;
     width:76%;
     margin-left: 12%;
+    font-size:0.9vw;
 }
 
 #subscription-box {
@@ -47,15 +49,22 @@ body {
 #music-icon {
     margin-top: 18%;
     margin-left: 8%;
+    width: 73%;
 }
 
 #plan-details {
     font-weight: 200;
+    font-size: 0.85vw;
 }
 
 #change-plan {
     font-weight: 200;
     margin-top: 35%;
+    font-size: 0.85vw;
+}
+
+#change-plan:hover {
+    text-decoration: underline;
 }
 
 #payment-button {
@@ -71,8 +80,17 @@ body {
     background-color: #5510e8;
 }
 
+#payment-button:hover {
+    background-color: #deebff;
+}
+
 #cancel {
     text-align: center;
     font-family: "Outfit", sans-serif;
     font-weight: 100;
+    font-size:0.85vw;
+}
+
+#cancel:hover {
+    text-decoration: line-through;
 }
